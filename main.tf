@@ -18,7 +18,7 @@ terraform {
 provider "azurerm" {
   features {}
   skip_provider_registration = true
-  subscription_id = "9734ed68-621d-47ed-babd-269110dbacb1"
+  subscription_id            = "9734ed68-621d-47ed-babd-269110dbacb1"
 }
 resource "azurerm_resource_group" "rg" {
   name     = "813-fef8349a-hands-on-with-terraform-on-azure"
